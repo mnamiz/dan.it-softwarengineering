@@ -33,7 +33,6 @@ int k=in.nextInt();
 			
 			if (boofer<=roofLength) {              		//Find min length for roof which can keep at least k number cars
 				roofLength=boofer;
-				System.out.println(i+k-1+" i+k-1 "+cars[i+k-1]+" "+i+" i "+cars[i]+" rr "+roofLength);
 			}
 		}
 		if (roofLength<k) roofLength=k;
